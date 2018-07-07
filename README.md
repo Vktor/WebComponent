@@ -1,4 +1,4 @@
-#Web Component
+# Web Component
 Es un web component sencillo, utilizando unicamente javascript puro [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) 
 
 ## Descripción
@@ -16,5 +16,5 @@ Se añadirá luego de construirlo
 ## Créditos
 [Victor Carranza](https://twitter.com/VktorHC)
 
-##Licencia
+## Licencia
 [MIT](https://opensource.org/licenses/MIT)
