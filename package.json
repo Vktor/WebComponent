@@ -1,0 +1,30 @@
+{
+  "name": "webcomponent",
+  "version": "0.1.0",
+  "description": "web component vanilla for a simple data table",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vktor/WebComponent.git"
+  },
+  "keywords": [
+    "javascript",
+    "data",
+    "table",
+    "datatable",
+    "vanilla",
+    "web",
+    "component",
+    "native",
+    "js"
+  ],
+  "author": "Victor Carranza <victor.carranz@hotmail.com> (https://github.com/Vktor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vktor/WebComponent/issues"
+  },
+  "homepage": "https://github.com/Vktor/WebComponent#readme"
+}
