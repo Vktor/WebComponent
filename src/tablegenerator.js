@@ -1,4 +1,6 @@
-export function creartablefromREST(URI){
+export class tablegenerator{
+
+getURI(URI){
     fetch(URI)
         .then(r=>r.json())
         .then(data =>{
@@ -7,7 +9,7 @@ export function creartablefromREST(URI){
         .catch(e=>console.log(e));
 }
 
-function crearTabla(datos){
+crearTabla(datos){
     //table container
         let container = document.createElement('div'); 
         container.className ='wcContainer';
@@ -46,4 +48,7 @@ function crearTabla(datos){
         //return container;
         thediv.innerHTML="";
         thediv.appendChild(container);
+        return "ok";
+}
+
 }
