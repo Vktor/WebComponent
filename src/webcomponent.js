@@ -9,14 +9,12 @@ class WebComponentCEtable extends HTMLElement{
 
         prom.then(data =>{
             let cont =this.crearTabla(data);
-            console.log(data)
             shadow.appendChild(cont);
         })
         .catch(e =>console.log(e));
         
     }
     crearTabla(datos){
-        console.log('aqui ando')
         //table container
             let container = document.createElement('div'); 
             container.className ='wcContainer';

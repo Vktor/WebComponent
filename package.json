@@ -5,6 +5,7 @@
   "main": "dist/src/tablegenerator.js",
   "scripts": {
     "build": "babel src/tablegenerator.js -d dist",
+    "build2": "babel src/webcomponent.js -d dist",
     "test": "mocha "
   },
   "repository": {

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>testing</title>
+
     <script src="src/webcomponent.js"></script>
-    <script src="src/tablegenerator.js"></script>
 </head>
 <body>
     <h1>Formas de uso:</h1>
@@ -14,14 +14,6 @@
     <p>como <b> Web Component </b> llamando a la correspondiente etiqueta y utilizando la propiedad "jsonroot" para hacerle el json</p>
     <br>
     <wc-cetable jsonroot="https://jsonplaceholder.typicode.com/users"></wc-cetable>
-    <br>
-    <p>Como un Script sencillo llamando al <b>metodo crearteblefromREST</b> y pasandole la URI del respectivo json </p>
-    <br>
-    <script>
-        //crearTabla("https://jsonplaceholder.typicode.com/users")
-        tablegenerator("https://jsonplaceholder.typicode.com/users")
-    </script>
-    <div id="tabla">
-    </div>
+
 </body>
 </html>

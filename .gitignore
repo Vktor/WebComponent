@@ -1,4 +1,5 @@
 .vscode
-node_module
+node_modules
 coverage
 .nyc_output
+test
