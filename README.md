@@ -1,5 +1,6 @@
 # Web Component Table
-Es un web component sencillo, utilizando unicamente javascript puro [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) 
+Es un web component sencillo, utilizando unicamente javascript puro, [Custom Elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) 
+y realiza la petición por medio de [Fetch API](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
 
 ## Descripción
 Su utilidad es generar una tabla dinamica a base de un archivo json
@@ -13,7 +14,6 @@ Solo añade la etiqueta con la ubicación del archivo
 crea una etiqueta <wc-cetable></wc-cetable> con el atributo "jsonroot" dandole la ubicación del json para que genere la tabla, para este caso utilicé jsonplaceholder.
 ``` 
  <wc-cetable jsonroot="https://jsonplaceholder.typicode.com/users"></wc-cetable>
-
 ```
 ![Tabla de ejemplo](img/tablexample.PNG)
 
