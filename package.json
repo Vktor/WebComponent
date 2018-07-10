@@ -2,9 +2,9 @@
   "name": "webcomponent",
   "version": "0.1.0",
   "description": "web component vanilla for a simple data table",
-  "main": "index.js",
+  "main": "dist/src/tablegenerator.js",
   "scripts": {
-    
+    "build": "babel src/tablegenerator.js -d dist"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/Vktor/WebComponent/issues"
   },
-  "homepage": "https://github.com/Vktor/WebComponent#readme"
+  "homepage": "https://github.com/Vktor/WebComponent#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
